@@ -22,7 +22,7 @@ void createAccounts(struct BankAccount accounts[], int *n)
         scanf("%d", &accounts[i].accountNo);
 
         printf("Account Holder Name: ");
-        scanf(" %[^\n]", accounts[i].name);
+        scanf(" %s", accounts[i].name);
 
         printf("Initial Balance: ");
         scanf("%f", &accounts[i].balance);
